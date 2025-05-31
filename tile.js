@@ -6,7 +6,7 @@ class Tile {
         this.posX = this.col * tileSize;
         this.posY = this.row * tileSize;
     }
-    renderTile(bg = 'tomato') {
+    renderTile(bg = 'black') {
         ctx.fillStyle = bg;
         ctx.fillRect(this.posX, this.posY, tileSize, tileSize);
     }
